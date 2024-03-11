@@ -1,0 +1,63 @@
+body {
+    background: url(../Recursos/Imagenes/Fondos/fondoLogin.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#botonLogin {
+    background-color: #2271b3;
+    color: white;
+}
+
+#botonLogin:hover {
+    background-color: #0096d2;
+}
+
+#registroContrasena:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#recuperarContrasena:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Modal registro de contraseña */
+
+#btnRegistro {
+    background-color: #2271b3;
+    color: white;
+}
+
+#btnRegistro:hover {
+    background-color: #0096d2;
+}
+
+#btnRecuperar {
+    background-color: #2271b3;
+    color: white;
+}
+
+#btnRecuperar:hover {
+    background-color: #0096d2;
+}
+
+.cerrarModal {
+    background-color: #e61919;
+    color: white;
+}
+
+.cerrarModal:hover {
+    background-color: #fe0000;
+}
+
+.cerrarModalTop:hover {
+    background-color: #fe0000;
+}

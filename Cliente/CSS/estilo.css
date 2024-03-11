@@ -1,0 +1,134 @@
+body {
+    margin: 1px 0px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#nav-bar {
+    background-color: rgb(60, 70, 80);
+    padding: 10px;
+}
+
+#logo-hnm {
+    width: 60px;
+}
+
+.btns-menu {
+    height: 55px;
+    font-size: 19px;
+}
+
+.btns-menu:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#nombreUsuario {
+    color: white;
+    height: 55px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#btnNotificaciones {
+    color: white;
+    width: 55px;
+    height: 55px;
+    font-size: 18px;
+}
+
+#btnLogout {
+    color: white;
+    width: 55px;
+    height: 55px;
+    font-size: 18px;
+}
+
+#btnConfiguraciones {
+    color: white;
+    width: 50px;
+    height: 55px;
+    font-size: 18px;
+}
+
+#divNotificaciones {
+    position: relative;
+    display: inline-block;
+}
+
+#divConfiguracion {
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 8px;
+}
+
+#btnNotificaciones:hover {
+    background-color: rgba(50, 190, 250, 0.6);
+}
+
+#btnLogout:hover {
+    background-color: red;
+}
+
+#btnConfiguraciones:hover {
+    background-color: #CAB9B5;
+}
+
+footer {
+    width: 100%;
+    background: rgb(60, 70, 80);
+    color: white;
+}
+
+#btnCerrarMensajeTop:hover {
+    background-color: #fe0000;
+}
+
+#btnCerrarMensaje {
+    background-color: #e61919;
+}
+
+#btnCerrarMensaje:hover {
+    background-color: #fe0000;
+}
+
+#btnCerrarModal:hover {
+    background-color: #fe0000;
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+
+
+.cerrarModal {
+    background-color: #e61919;
+    color: white;
+}
+
+.cerrarModal:hover {
+    background-color: #fe0000;
+}
+
+.cerrarModalTop:hover {
+    background-color: #fe0000;
+}
+
+#btnCambio {
+    background-color: #2271b3;
+    color: white;
+}
+
+#btnCambio:hover {
+    background-color: #0096d2;
+}
